@@ -60,9 +60,6 @@ function Contact() {
           <h3>Location <span> Wennappuwa</span></h3>
         </div>
         <div className={contactCSS.card}>
-          <h3>Phone<span> 077 439 7707</span></h3>
-        </div>
-        <div className={contactCSS.card}>
           <h3>Email <span> devindikarunathilaka88@gmail.com</span></h3>
         </div>
       </div>
