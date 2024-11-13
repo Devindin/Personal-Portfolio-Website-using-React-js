@@ -1,17 +1,5 @@
 {
-    "rewrites": [
-        { "source": "/videos/(.*)", "destination": "/src/assets/videos/$1" }
-    ],
-    "headers": [
-      {
-        "source": "/videos/(.*)", 
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "public, max-age=0, must-revalidate"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
