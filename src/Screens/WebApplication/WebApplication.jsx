@@ -1,23 +1,24 @@
 import React from "react";
 import Profile from "../../Components/profile/profile";
+import { faVideo } from "@fortawesome/free-solid-svg-icons";
 import webapplicationCSS from "../WebApplication/WebApplication.module.css";
-import project1 from "../../assets/webproject1.mp4";
-import project2 from "../../assets/webproject2.mp4";
-import project3 from "../../assets/webproject3.mp4";
-import project4 from "../../assets/webproject4.mp4";
-import project15 from "../../assets/webproject15.mp4";
-import project10 from "../../assets/webproject10.mp4";
-import project11 from "../../assets/webproject11.mp4";
-import project14 from "../../assets/webproject14.mp4";
-import project6 from "../../assets/webproject6.mp4";
-import project9 from "../../assets/webproject9.mp4";
-import project16 from "../../assets/webproject16.mp4";
-import project5 from "../../assets/webproject5.mp4";
-import project7 from "../../assets/webproject7.mp4";
-import project8 from "../../assets/webproject8.mp4";
-import project12 from "../../assets/webproject12.mp4";
-import project13 from "../../assets/webproject13.mp4";
-import project17 from "../../assets/webproject17.mp4";
+import project1 from "../../assets/2.png";
+import project2 from "../../assets/3.png";
+import project3 from "../../assets/4.png";
+import project4 from "../../assets/5.png";
+import project5 from "../../assets/6.png";
+import project7 from "../../assets/7.png";
+import project10 from "../../assets/10.png";
+import project11 from "../../assets/11.png";
+import project18 from "../../assets/18.png";
+import project6 from "../../assets/1.png";
+import project9 from "../../assets/9.png";
+import project16 from "../../assets/16.png";
+import project15 from "../../assets/15.png";
+import project8 from "../../assets/8.png";
+import project12 from "../../assets/12.png";
+import project13 from "../../assets/13.png";
+import project19 from "../../assets/19.png";
 
 const WebApplication = () => {
   return (
@@ -28,11 +29,86 @@ const WebApplication = () => {
           <h1 className="section_Title">Web Application Projects</h1>
           <div className={webapplicationCSS.projectcards}>
             <div className={webapplicationCSS.card}>
-              <video src={project9} alt="Web Project 1" controls />
+              <img src={project6} alt="Web Project 1" controls />
+              <h2>
+                Acne Detection And Classification System for Medical Treatments{" "}
+              </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_machinelearning-mern-acnedetection-activity-7261021228730064896-0djc?utm_source=share&utm_medium=member_desktop">uploaded video in linkdin</a>
+              <h4>Key features:</h4>
+              <ul>
+                <li>
+                  Automated Acne Detection: Upload an image,
+                  and the system will analyze and identify acne types instantly.
+                </li>
+                <li>
+                  Classification of Acne Types: Detects
+                  multiple types, including blackheads, whiteheads, papules,
+                  pustules, nodules, and dark spots.
+                </li>
+                <li>
+                  Treatment Recommendations:Based
+                  on detected acne types, the system suggests appropriate
+                  treatments.
+                </li>
+                <li>
+                 User-Friendly Interface: Intuitive UI built
+                  with React and Tailwind CSS for easy navigation and
+                  interaction.
+                </li>
+                <li>
+                  Secure Data Management: All user information
+                  and images are securely processed and stored with MongoDB on
+                  the backend.
+                </li>
+              </ul>
+              <h4>Technologies and special functionalities:</h4>
+              <ul>
+                <li>
+                  React, Tailwind CSS 
+                </li>
+                <li>
+                   Node.js, Express 
+                </li>
+                <li>
+                 TensorFlow CNN
+                </li>
+                <li>
+                 Utilizes preprocessing
+                  techniques to optimize uploaded images for accurate model
+                  predictions.
+                </li>
+                <li>
+                  RESTful API
+                </li>
+                
+              </ul>
+
+              <h4>🔗 Check out on GitHub:</h4>
+              <p>FrontEnd</p>
+              <a href="https://github.com/Devindin/Acne-Detection-and-Classification-System-For-Medical-Treatments-Frontend-.git">
+              https://github.com/Devindin/Acne-Detection-and-Classification-System-For-Medical-Treatments-Frontend-.git
+              </a>
+              <p>BackEnd</p>
+              <a href="https://github.com/Devindin/Acne-Detection-and-Classification-System-For-Medical-Treatments-Backend-using-Node.js-and-Express.js.git">
+              https://github.com/Devindin/Acne-Detection-and-Classification-System-For-Medical-Treatments-Backend-using-Node.js-and-Express.js.git
+              </a>
+              <p>Model</p>
+              <a href="https://github.com/Devindin/Multi-Label-Acne-Classification-CNN-Model-.git">
+              https://github.com/Devindin/Multi-Label-Acne-Classification-CNN-Model-.git
+              </a>
+            </div>
+            <div className={webapplicationCSS.card}>
+              <img src={project1} alt="Web Project 1" controls />
               <h2>
                 E-commerce website with admin dashboard for an online flower
                 shop{" "}
               </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_fullstackdevelopment-mernstack-ecommerce-activity-7205275432521273344-hw0I?utm_source=share&utm_medium=member_desktop">
+                {" "}
+                uploaded video in linkdin
+              </a>
               <h4>Key features:</h4>
               <p>Customer Experience:</p>
               <p>
@@ -63,8 +139,12 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project10} alt="Web Project 4" controls />
+              <img src={project2} alt="Web Project 4" controls />
               <h2> Appointment Management System </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_mernstack-appointmentmanagement-rolebasedauthentication-activity-7199490245099180033-42B5?utm_source=share&utm_medium=member_desktop">
+                uploaded video in linkdin
+              </a>
               <h4>Key features:</h4>
               <p>Receptionist Dashboard:</p>
               <p>
@@ -97,8 +177,10 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project14} alt="Web Project 4" controls />
+              <img src={project3} alt="Web Project 4" controls />
               <h2> Logging System and Beyond!</h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="">uploaded video in linkdin</a>
               <h4>Key features:</h4>
               <p>Building a Logging System:</p>
               <p>
@@ -154,8 +236,12 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project2} alt="Web Project 2" controls />
+              <img src={project4} alt="Web Project 2" controls />
               <h2> Buyer Wallet Interface </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_mern-usdt-react-activity-7239368098955304961-c6jB?utm_source=share&utm_medium=member_desktop">
+                uploaded video in linkdin
+              </a>
               <h4>Key features:</h4>
               <p>
                 allows buyers to easily manage their USDT and LKR balances with
@@ -171,8 +257,30 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project15} alt="Web Project 3" controls />
+              <img src={project7} alt="Web Project 2" controls />
+              <h2> Transactions </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_mernstack-react-tailwindcss-activity-7246004431484264449-KT3r?utm_source=share&utm_medium=member_desktop">
+                uploaded video in linkdin
+              </a>
+              <h4>Key features:</h4>
+              <p>
+                allows users to make transactions and view transactions
+              </p>
+              <h4>Technologies and special functionalities:</h4>
+              <p>React , Tailwind css</p>
+              <h4>🔗 Check out on GitHub:</h4>
+              <a href="https://github.com/Devindin/Buyer-wallet-using-react.git">
+                https://github.com/Devindin/Buyer-wallet-using-react.git
+              </a>
+            </div>
+            <div className={webapplicationCSS.card}>
+              <img src={project5} alt="Web Project 3" controls />
               <h2>User registration system</h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_mern-usdt-react-activity-7238976191427133440-UfZn?utm_source=share&utm_medium=member_desktop">
+                uploaded video in linkdin
+              </a>
               <h4>Key features:</h4>
               <p>
                 enabling secure and efficient trading between retail buyers and
@@ -188,8 +296,12 @@ const WebApplication = () => {
             </div>
 
             <div className={webapplicationCSS.card}>
-              <video src={project11} alt="Web Project 4" controls />
+              <img src={project9} alt="Web Project 4" controls />
               <h2>Online book library</h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_onlinelibrary-openlibraryapi-books-activity-7194659457744711680-cLsU?utm_source=share&utm_medium=member_desktop">
+                uploaded video in linkdin
+              </a>
               <h4>Key features:</h4>
               <p>
                 Discover, explore, and immerse yourself in a world of
@@ -205,8 +317,10 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project4} alt="Web Project 4" controls />
+              <img src={project15} alt="Web Project 4" controls />
               <h2>Blogs website </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="">uploaded video in linkdin</a>
               <h4>Key features:</h4>
               <p>Add new blogs</p>
               <p>Remove blogs</p>
@@ -221,8 +335,12 @@ const WebApplication = () => {
             </div>
 
             <div className={webapplicationCSS.card}>
-              <video src={project6} alt="Web Project 4" controls />
+              <img src={project18} alt="Web Project 4" controls />
               <h2>Animated Website</h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_webdevelopment-react-framermotion-activity-7222172267068190720-E789?utm_source=share&utm_medium=member_desktop">
+                uploaded video in linkdin
+              </a>
               <h4>Key features:</h4>
               <p>
                 a dynamic and engaging animated website built with React and
@@ -236,8 +354,12 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project16} alt="Web Project 4" controls />
+              <img src={project8} alt="Web Project 4" controls />
               <h2>Netflix Clone </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_react-openai-webdevelopment-activity-7243528230370959361-bfVo?utm_source=share&utm_medium=member_desktop">
+                uploaded video in linkdin
+              </a>
               <h4>Key features:</h4>
               <p>Responsive design with an intuitive UI/UX</p>
               <h4>Technologies and special functionalities:</h4>
@@ -249,8 +371,12 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project7} alt="Web Project 4" controls />
+              <img src={project11} alt="Web Project 4" controls />
               <h2>Online Hanging plants shop website </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="https://www.linkedin.com/posts/devindi-karunathilaka-4bb52b230_frontenddevelopment-reactjs-tailwindcss-activity-7208509593197453312-guSL?utm_source=share&utm_medium=member_desktop">
+                uploaded video in linkdin
+              </a>
               <h4>Key features:</h4>
               <p>Responsive website</p>
               <h4>Technologies and special functionalities:</h4>
@@ -263,8 +389,10 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project12} alt="Web Project 4" controls />
+              <img src={project12} alt="Web Project 4" controls />
               <h2>Ecommerce frontend</h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="">uploaded video in linkdin</a>
               <h4>Key features:</h4>
               <p> Discover, explore dresses and add to cart </p>
               <h4>Technologies and special functionalities:</h4>
@@ -275,8 +403,10 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project13} alt="Web Project 4" controls />
+              <img src={project10} alt="Web Project 4" controls />
               <h2>Restaurant website </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="">uploaded video in linkdin</a>
               <h4>Key features:</h4>
               <p>better UI experience</p>
               <h4>Technologies and special functionalities:</h4>
@@ -287,8 +417,10 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project17} alt="Web Project 4" controls />
+              <img src={project19} alt="Web Project 4" controls />
               <h2>Web Interface for Thapro Coin project</h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="">uploaded video in linkdin</a>
               <h4>Key features:</h4>
               <p>Dynamic web page</p>
               <h4>Technologies and special functionalities:</h4>
@@ -299,8 +431,10 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project8} alt="Web Project 4" controls />
+              <img src={project13} alt="Web Project 4" controls />
               <h2>Hospital website </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="">uploaded video in linkdin</a>
               <h4>Key features:</h4>
               <p>User can view about doctors and hospital.</p>
               <p>User can login to the website and make appointments </p>
@@ -313,8 +447,10 @@ const WebApplication = () => {
               </a>
             </div>
             <div className={webapplicationCSS.card}>
-              <video src={project5} alt="Web Project 4" controls />
+              <img src={project16} alt="Web Project 4" controls />
               <h2>Personal Portfolio website </h2>
+              <h3>📹 Watch the Video:</h3>
+              <a href="">uploaded video in linkdin</a>
               <h4>Key features:</h4>
               <p>Responsive</p>
               <h4>Technologies and special functionalities:</h4>

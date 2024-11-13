@@ -25,7 +25,7 @@ function Profile() {
           <a href="https://www.behance.net/devindikarunat">
             <i className="ri-behance-line"></i>
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/devindi_n_/profilecard/?igsh=dGUxd2YyaHI5NnNm">
           <i className="ri-instagram-line"></i>
           </a>
           <a href="https://www.facebook.com/devindin.karunathilaka?mibextid=ZbWKwL">
